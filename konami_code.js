@@ -7,7 +7,7 @@ function onKeyDownHandler(e) {
     index++;
  
     if (index === code.length) {
-      alert("Yay!");
+      console.log("Yay!");
       index = 0;
     }
   } else {
